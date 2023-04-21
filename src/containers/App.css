@@ -1,13 +1,14 @@
 @font-face {
   font-display: swap;
-  font-family: "Righteous";
+  font-family: "SEGA LOGO FONT";
   font-style: normal;
   font-weight: normal;
-  src: local("Righteous"), url("Righteous-Regular.ttf") format("ttf");
+  src: local("SEGA LOGO FONT"), url("SEGA.woff") format("woff");
 }
 h1 {
   color: white;
+  font-weight: 200;
   font-size: 3rem;
-  font-family: "Righteous", cursive;
+  font-family: "SEGA LOGO FONT";
   text-transform: uppercase;
 }

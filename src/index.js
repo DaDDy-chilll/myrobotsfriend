@@ -3,6 +3,7 @@ import ReactDOM from "react-dom/client";
 import "tachyons";
 import "./index.css";
 
+import * as serviceWorkerRegistration from "./serviceWorkerRegistration";
 import reportWebVitals from "./reportWebVitals";
 import App from "./containers/App";
 
@@ -13,4 +14,5 @@ root.render(
   </React.StrictMode>
 );
 
+serviceWorkerRegistration.register();
 reportWebVitals();

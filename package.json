@@ -40,11 +40,6 @@
     ]
   },
   "devDependencies": {
-<<<<<<< HEAD
-    "@cfaester/enzyme-adapter-react-18": "^0.7.0",
-    "enzyme": "^3.11.0"
-=======
     "@testing-library/react": "^14.0.0"
->>>>>>> 7caf135f27252f819a5e5aa63f1fc67a7275e209
   }
 }

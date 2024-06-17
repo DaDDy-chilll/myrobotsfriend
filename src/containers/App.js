@@ -19,13 +19,9 @@ function App() {
   useEffect(() => {
     fetch("https://jsonplaceholder.typicode.com/users")
       .then((response) => response.json())
-      .then((users) => setRobots(users));
+      .then((users) => setRobots(users))
+      .catch(error => console.log(error));
   }, []);
-  // componentDidMount() {
-  //   fetch("https://jsonplaceholder.typicode.com/users")
-  //     .then((response) => response.json())
-  //     .then((users) => this.setState({ robots: users }));
-  // }
 
   const onSearchChange = (event) => {
     // this.setState({ searchField: event.target.value });
